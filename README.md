@@ -22,7 +22,7 @@
 const brian = {
   rol:         ["Docente de Educación Física", "Investigador", "Desarrollador", "Artista plástico"],
   aula:        "22 años en la educación pública colombiana",
-  formacion:   ["Doctorado en Educación", "Maestría en Ciencias del Deporte", "Licenciatura en Educación Física"],
+  formacion:   ["Licenciatura en Educación Física"],
   aprendiendo: "Tecnólogo en Análisis y Desarrollo de Software · SENA",
   ubicacion:   "Santander, Colombia 🇨🇴"
 };
