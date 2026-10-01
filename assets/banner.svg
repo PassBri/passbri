@@ -35,7 +35,7 @@
       <text x="70" y="168" fill="#eef4ff" font-size="54" font-weight="300" letter-spacing="2">Brian <tspan font-weight="700">Suárez</tspan></text>
       <rect x="72" y="190" width="120" height="3" rx="1.5" fill="url(#linea)"><animate attributeName="width" values="40;180;40" dur="6s" repeatCount="indefinite"/></rect>
       <text x="72" y="232" fill="#a9b8d0" font-size="19" letter-spacing=".5">Educador · Investigador · Desarrollador · Artista</text>
-      <text x="72" y="268" fill="#7f93b3" font-size="15">Doctor en Educación · creador de Romus y LordTraining</text>
+      <text x="72" y="268" fill="#7f93b3" font-size="15">Docente · creador de Romus y LordTraining</text>
       <text x="72" y="316" fill="#ffc83d" font-size="13" letter-spacing="4" font-weight="600">SANTANDER · COLOMBIA</text>
     </g>
   </g>
