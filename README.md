@@ -94,7 +94,7 @@ Soy docente de aula. Pienso como investigador y construyo como desarrollador. Me
 ### ◈ Actividad
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=PassBri&bg_color=0b1530&color=a9b8d0&line=3aa0ff&point=ffc83d&area=true&area_color=3aa0ff&hide_border=true&radius=12" width="100%" alt="Gráfico de actividad en GitHub">
+  <img src="assets/actividad.svg" width="100%" alt="Gráfico de contribuciones de los últimos 31 días">
 </p>
 
 <p align="center">
