@@ -15,24 +15,9 @@
 
 ---
 
-### ◈ Sobre mí
-
-```js
-const brian = {
-  rol: [
-    "Docente de Educación Física",
-    "Investigador",
-    "Desarrollador",
-    "Artista plástico"
-  ],
-  aula: "22 años en la educación pública colombiana",
-  formacion: "Licenciatura en Educación Física",
-  aprendiendo: "Tecnólogo en Análisis y Desarrollo de Software (SENA)",
-  ubicacion: "Santander, Colombia"
-};
-```
-
-Soy docente de aula. Pienso como investigador y construyo como desarrollador. Me interesa lo que pasa cuando se cruzan la **pedagogía**, las **ciencias del deporte** y la **inteligencia artificial**.
+<p align="center">
+  <img src="assets/sobre-mi.svg" width="100%" alt="Sobre mí: soy docente de aula; pienso como investigador y construyo como desarrollador. Docente de Educación Física, investigador, desarrollador y artista plástico. 22 años en la educación pública colombiana. Licenciatura en Educación Física. Aprendiendo Tecnólogo en Análisis y Desarrollo de Software en el SENA. Santander, Colombia.">
+</p>
 
 ---
 
