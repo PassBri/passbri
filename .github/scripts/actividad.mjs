@@ -31,7 +31,7 @@ for (let i = DIAS - 1; i >= 0; i--) {
   dias.push({ k, n: mapa[k] || 0, d: f.getUTCDate() });
 }
 
-const W = 1000, H = 300, iz = 56, de = 24, ar = 64, ab = 44;
+const W = 1200, H = 400, iz = 96, de = 56, ar = 132, ab = 64;
 const max = Math.max(4, ...dias.map((x) => x.n));
 const paso = Math.ceil(max / 4);
 const tope = paso * 4;
@@ -47,17 +47,26 @@ let rejilla = "";
 for (let v = 0; v <= tope; v += paso)
   rejilla += `<line x1="${iz}" x2="${W - de}" y1="${y(v)}" y2="${y(v)}" class="r"/><text x="${iz - 10}" y="${y(v) + 4}" text-anchor="end" class="t">${v}</text>`;
 const etiquetas = dias.map((p, i) => (i % 3 === 0 || i === DIAS - 1) ? `<text x="${x(i)}" y="${H - ab + 20}" text-anchor="middle" class="t">${p.d}</text>` : "").join("");
-const puntos = pts.map(([a, b], i) => `<circle cx="${a.toFixed(1)}" cy="${b.toFixed(1)}" r="3.5" class="p"><title>${dias[i].k}: ${dias[i].n}</title></circle>`).join("");
+const puntos = pts.map(([a, b], i) => `<circle cx="${a.toFixed(1)}" cy="${b.toFixed(1)}" r="4.5" class="p"><title>${dias[i].k}: ${dias[i].n}</title></circle>`).join("");
 
-const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Contribuciones de ${USUARIO} en los últimos ${DIAS} días: ${total}">
-<style>.t{font:12px 'Segoe UI',Arial,sans-serif;fill:#a9b8d0}.h{font:600 17px 'Segoe UI',Arial,sans-serif;fill:#e6edf7}.s{font:13px 'Segoe UI',Arial,sans-serif;fill:#a9b8d0}.r{stroke:#a9b8d0;stroke-opacity:.12}.p{fill:#ffc83d}</style>
-<defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3aa0ff" stop-opacity=".45"/><stop offset="1" stop-color="#3aa0ff" stop-opacity="0"/></linearGradient></defs>
-<rect width="${W}" height="${H}" rx="12" fill="#0b1530"/>
-<text x="${iz}" y="34" class="h">Contribuciones · últimos ${DIAS} días</text>
-<text x="${W - de}" y="34" text-anchor="end" class="s">${total} contribuciones · ${activos} días activos</text>
+const fam = "'Segoe UI', 'Helvetica Neue', Arial, sans-serif";
+const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${W} ${H}" width="${W}" height="${H}" role="img" aria-label="Actividad de ${USUARIO} en GitHub: ${total} contribuciones en los últimos ${DIAS} días">
+<style>text{font-family:${fam}}.t{font-size:15px;fill:#7f93b3}.r{stroke:#a9b8d0;stroke-opacity:.10}.p{fill:#ffc83d}</style>
+<defs>
+<radialGradient id="f" cx="15%" cy="0%" r="120%"><stop offset="0" stop-color="#13305e"/><stop offset=".5" stop-color="#0a1530"/><stop offset="1" stop-color="#05070d"/></radialGradient>
+<pattern id="pt" width="28" height="28" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#3aa0ff" fill-opacity=".10"/></pattern>
+<linearGradient id="g" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3aa0ff" stop-opacity=".45"/><stop offset="1" stop-color="#3aa0ff" stop-opacity="0"/></linearGradient>
+<clipPath id="c"><rect width="${W}" height="${H}" rx="22"/></clipPath>
+</defs>
+<g clip-path="url(#c)"><rect width="${W}" height="${H}" fill="url(#f)"/><rect width="${W}" height="${H}" fill="url(#pt)"/></g>
+<rect x=".75" y=".75" width="${W - 1.5}" height="${H - 1.5}" rx="22" fill="none" stroke="#3aa0ff" stroke-opacity=".3" stroke-width="1.5"/>
+<path d="M62 56l6 6-6 6-6-6z" fill="#ffc83d"/><text x="80" y="68" font-size="15" letter-spacing="6" font-weight="600" fill="#ffc83d">06 · ACTIVIDAD</text>
+<text x="56" y="108" font-size="30" font-weight="300" fill="#eef4ff">Contribuciones de los últimos ${DIAS} días</text>
+<text x="${W - de}" y="74" text-anchor="end" font-size="40" font-weight="600" fill="#3aa0ff">${total}</text>
+<text x="${W - de}" y="104" text-anchor="end" font-size="16" fill="#a9b8d0">contribuciones · ${activos} días activos</text>
 ${rejilla}
 <path d="${area}" fill="url(#g)"/>
-<path d="${linea}" fill="none" stroke="#3aa0ff" stroke-width="2.5" stroke-linejoin="round"/>
+<path d="${linea}" fill="none" stroke="#3aa0ff" stroke-width="3" stroke-linejoin="round"/>
 ${puntos}${etiquetas}
 </svg>
 `;

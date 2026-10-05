@@ -3,109 +3,42 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/PassBri">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=19&duration=3200&pause=900&color=3AA0FF&center=true&vCenter=true&width=640&lines=Educaci%C3%B3n+%C3%97+Ciencias+del+deporte+%C3%97+Inteligencia+artificial;Del+aula+p%C3%BAblica+al+c%C3%B3digo;Creador+de+Romus+y+LordTraining" alt="Educación × Ciencias del deporte × Inteligencia artificial">
-  </a>
+  <img src="assets/web/metricas.svg" width="100%" alt="22 años en el aula pública; 4 productos digitales; más de 30 deportes en LordTraining; PDI, modelo propio de periodización.">
 </p>
 
 <p align="center">
-  <a href="https://lordtraining.com"><img src="https://img.shields.io/badge/LordTraining-lordtraining.com-0b1530?style=for-the-badge&labelColor=ffc83d&color=0b1530" alt="LordTraining"></a>
-  <a href="https://passbri.github.io/romus/"><img src="https://img.shields.io/badge/Romus-asistente%20de%20voz-0b1530?style=for-the-badge&labelColor=3aa0ff&color=0b1530" alt="Romus"></a>
-</p>
-
----
-
-<p align="center">
-  <img src="assets/sobre-mi.svg" width="100%" alt="Sobre mí: soy docente de aula; pienso como investigador y construyo como desarrollador. Docente de Educación Física, investigador, desarrollador y artista plástico. 22 años en la educación pública colombiana. Licenciatura en Educación Física. Aprendiendo Tecnólogo en Análisis y Desarrollo de Software en el SENA. Santander, Colombia.">
-</p>
-
----
-
-### ◈ Proyectos
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/proyectos/romus.svg" width="64" height="64" align="left" alt="Logo de Romus">
-      <h3>Romus</h3>
-      <sub>Asistente de voz con IA para Word</sub>
-      <br clear="left">
-      <p>Dices <b>«Ok Romus»</b> y lee, corrige, resume, redacta y da formato a tus documentos. Funciona con Claude, GPT, Gemini o una IA local.</p>
-      <p><a href="https://github.com/PassBri/romus"><img src="https://img.shields.io/badge/Repositorio-0b1530?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio"></a> <a href="https://passbri.github.io/romus/"><img src="https://img.shields.io/badge/Instalar-3aa0ff?style=for-the-badge&logo=microsoftword&logoColor=white" alt="Instalar"></a></p>
-      <p><img src="https://img.shields.io/badge/Office.js-2b579a?style=flat-square&logo=microsoftword&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/IA%20de%20voz-c239b3?style=flat-square"></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="https://lordtraining.com/brand/lordtraining-master.png" width="64" height="64" align="left" alt="Logo de LordTraining">
-      <h3>LordTraining</h3>
-      <sub>Periodización deportiva · SaaS</sub>
-      <br clear="left">
-      <p>Plataforma basada en mi modelo <b>PDI</b>: cinco metodologías de periodización, control de carga ACWR, gestión de deportistas en más de 30 deportes y módulo de scouting.</p>
-      <p><a href="https://lordtraining.com"><img src="https://img.shields.io/badge/lordtraining.com-ffc83d?style=for-the-badge&labelColor=0b1530" alt="lordtraining.com"></a></p>
-      <p><img src="https://img.shields.io/badge/SaaS-0b1530?style=flat-square"> <img src="https://img.shields.io/badge/Ciencias%20del%20deporte-ffc83d?style=flat-square"> <img src="https://img.shields.io/badge/ACWR-3aa0ff?style=flat-square"></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <img src="assets/proyectos/rutacima.png" width="64" height="64" align="left" alt="Sello de cera de Ruta a la Cima">
-      <h3>Ruta a la Cima</h3>
-      <sub>App de desarrollo personal</sub>
-      <br clear="left">
-      <p>Tu vida hasta los 120 años, vista año por año y día por día. Lleva a la app el método <b>Ruta a la Cima</b>: 7 fases × 6 ejes hacia tu Cumbre Personal. Tiene versión web conectada a la misma cuenta.</p>
-      <p><a href="https://github.com/PassBri/rutacima"><img src="https://img.shields.io/badge/Repositorio-6b2a1a?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio"></a> <a href="https://passbri.github.io/rutacima/"><img src="https://img.shields.io/badge/Abrir%20web-b8862f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir web"></a></p>
-      <p><img src="https://img.shields.io/badge/Android-6b2a1a?style=flat-square&logo=android&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-b8862f?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-6b2a1a?style=flat-square&logo=jetpackcompose&logoColor=white"></p>
-    </td>
-    <td width="50%" valign="top">
-      <img src="assets/proyectos/eggchecker.png" width="64" height="64" align="left" alt="Logo de EggChecker">
-      <h3>EggChecker</h3>
-      <sub>Gestión avícola · SENA ADSO</sub>
-      <br clear="left">
-      <p>Plataforma desarrollada en equipo con backend en Python/FastAPI y app Android. Estoy a cargo de la documentación de ingeniería de software (ISO/IEC/IEEE 12207, 29148, IEEE 1016 e ISO 25010).</p>
-      <p><a href="https://github.com/miguejpaezb/eggchecker"><img src="https://img.shields.io/badge/Repositorio-7a8b3c?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio"></a> <a href="https://eggchecker.click"><img src="https://img.shields.io/badge/eggchecker.click-f5c242?style=for-the-badge" alt="eggchecker.click"></a></p>
-      <p><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-7f52ff?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285f4?style=flat-square&logo=jetpackcompose&logoColor=white"></p>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>Obra académica</h3>
-      <p><b>Periodización Dual Integrada (PDI)</b> · modelo original de planificación del entrenamiento.<br>
-      <b><i>Propositivismo Episistémico</i></b> · libro de filosofía de la educación.<br>
-      <b><i>QOÁNIMA</i></b> · novela de ciencia ficción en proceso, parte de la <i>Serie de la teoría del viaje transformativo</i>.</p>
-      <p><img src="https://img.shields.io/badge/Pedagogía-185abd?style=flat-square"> <img src="https://img.shields.io/badge/Epistemología-c239b3?style=flat-square"> <img src="https://img.shields.io/badge/Ciencia%20ficción-0b1530?style=flat-square"></p>
-    </td>
-  </tr>
-</table>
-
----
-
-### ◈ Herramientas
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=html,css,js,python,fastapi,kotlin,androidstudio,git,github,vscode,figma&theme=dark" alt="HTML, CSS, JavaScript, Python, FastAPI, Kotlin, Android Studio, Git, GitHub, VS Code, Figma">
-</p>
-<p align="center">
-  <img src="https://img.shields.io/badge/Claude-d97757?style=flat-square&logo=anthropic&logoColor=white">
-  <img src="https://img.shields.io/badge/Gemini-8e75b2?style=flat-square&logo=googlegemini&logoColor=white">
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white">
-  <img src="https://img.shields.io/badge/Office%20Add--ins-2b579a?style=flat-square&logo=microsoftoffice&logoColor=white">
-  <img src="https://img.shields.io/badge/GitHub%20Pages-222?style=flat-square&logo=githubpages&logoColor=white">
-</p>
-
----
-
-### ◈ Más allá del código
-
-**Arte.** Pinto desde niño, formado por mi padre. Trabajo óleo sobre lienzo con conceptos abstractos y he expuesto en el Museo de Arte Moderno de Bucaramanga. Mi serie de **frailejones** habla del páramo y de la violencia extractiva.
-
-**Territorio.** Defiendo los páramos de Santander y participo en el debate público sobre la educación en Colombia.
-
----
-
-### ◈ Actividad
-
-<p align="center">
-  <img src="assets/actividad.svg" width="100%" alt="Gráfico de contribuciones de los últimos 31 días">
+  <img src="assets/web/sobre-mi.svg" width="100%" alt="Sobre mí: soy docente de aula; pienso como investigador y construyo como desarrollador. Docente de Educación Física, investigador, desarrollador y artista plástico. 22 años en la educación pública colombiana. Licenciatura en Educación Física. Aprendiendo Tecnólogo en Análisis y Desarrollo de Software en el SENA. Santander, Colombia.">
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b1530,50:13305e,100:3aa0ff&height=110&section=footer" width="100%" alt="">
+  <img src="assets/web/h-proyectos.svg" width="100%" alt="Proyectos: lo que estoy construyendo">
+</p>
+
+<p align="center">
+  <a href="https://github.com/PassBri/romus"><img src="assets/web/p-romus.svg" width="49%" alt="Romus: asistente de voz con IA para Word. Ver repositorio."></a>
+  <a href="https://lordtraining.com"><img src="assets/web/p-lordtraining.svg" width="49%" alt="LordTraining: plataforma de periodización deportiva. Visitar lordtraining.com."></a>
+</p>
+<p align="center">
+  <a href="https://github.com/PassBri/rutacima"><img src="assets/web/p-rutacima.svg" width="49%" alt="Ruta a la Cima: app de desarrollo personal. Ver repositorio."></a>
+  <a href="https://github.com/miguejpaezb/eggchecker"><img src="assets/web/p-eggchecker.svg" width="49%" alt="EggChecker: gestión avícola, proyecto SENA ADSO. Ver repositorio."></a>
+</p>
+
+<p align="center">
+  <img src="assets/web/obra.svg" width="100%" alt="Obra académica: Periodización Dual Integrada (PDI), modelo de planificación del entrenamiento; Propositivismo Episistémico, libro de filosofía de la educación; QOÁNIMA, novela de ciencia ficción en proceso.">
+</p>
+
+<p align="center">
+  <img src="assets/web/herramientas.svg" width="100%" alt="Herramientas: HTML, CSS, JavaScript, Python, Kotlin; FastAPI, Jetpack Compose, Office.js, GitHub Pages; Git, GitHub, VS Code, Android Studio, Figma; Claude, Gemini, OpenAI.">
+</p>
+
+<p align="center">
+  <img src="assets/web/mas-alla.svg" width="100%" alt="Más allá del código: arte al óleo y defensa de los páramos de Santander.">
+</p>
+
+<p align="center">
+  <img src="assets/actividad.svg" width="100%" alt="Actividad: contribuciones en GitHub de los últimos 31 días">
+</p>
+
+<p align="center">
+  <img src="assets/web/pie.svg" width="100%" alt="Del aula pública al código. Brian Suárez, Santander, Colombia.">
 </p>
