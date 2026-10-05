@@ -11,7 +11,6 @@
 <p align="center">
   <a href="https://lordtraining.com"><img src="https://img.shields.io/badge/LordTraining-lordtraining.com-0b1530?style=for-the-badge&labelColor=ffc83d&color=0b1530" alt="LordTraining"></a>
   <a href="https://passbri.github.io/romus/"><img src="https://img.shields.io/badge/Romus-asistente%20de%20voz-0b1530?style=for-the-badge&labelColor=3aa0ff&color=0b1530" alt="Romus"></a>
-  <img src="https://komarev.com/ghpvc/?username=PassBri&style=for-the-badge&color=0b1530&label=VISITAS" alt="Visitas al perfil">
 </p>
 
 ---
@@ -24,7 +23,7 @@ const brian = {
   aula:        "22 años en la educación pública colombiana",
   formacion:   ["Licenciatura en Educación Física"],
   aprendiendo: "Tecnólogo en Análisis y Desarrollo de Software · SENA",
-  ubicacion:   "Santander, Colombia 🇨🇴"
+  ubicacion:   "Santander, Colombia"
 };
 ```
 
@@ -37,30 +36,50 @@ Soy docente de aula. Pienso como investigador y construyo como desarrollador. Me
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>◉ Romus</h4>
-      <p>Asistente de voz con IA para Microsoft Word. Dices <b>«Ok Romus»</b> y lee, corrige, resume, redacta y da formato a tus documentos. Funciona con Claude, GPT, Gemini o una IA local. Su identidad es una esfera holográfica de partículas con núcleo dorado.</p>
-      <p><a href="https://github.com/PassBri/romus"><b>Repositorio →</b></a> · <a href="https://passbri.github.io/romus/">Instalar</a></p>
-      <p><img src="https://img.shields.io/badge/Office.js-2b579a?style=flat-square&logo=microsoftword&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/IA-voz-c239b3?style=flat-square"></p>
+      <img src="assets/proyectos/romus.svg" width="64" height="64" align="left" alt="Logo de Romus">
+      <h3>Romus</h3>
+      <sub>Asistente de voz con IA para Word</sub>
+      <br clear="left">
+      <p>Dices <b>«Ok Romus»</b> y lee, corrige, resume, redacta y da formato a tus documentos. Funciona con Claude, GPT, Gemini o una IA local.</p>
+      <p><a href="https://github.com/PassBri/romus"><img src="https://img.shields.io/badge/Repositorio-0b1530?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio"></a> <a href="https://passbri.github.io/romus/"><img src="https://img.shields.io/badge/Instalar-3aa0ff?style=for-the-badge&logo=microsoftword&logoColor=white" alt="Instalar"></a></p>
+      <p><img src="https://img.shields.io/badge/Office.js-2b579a?style=flat-square&logo=microsoftword&logoColor=white"> <img src="https://img.shields.io/badge/JavaScript-f7df1e?style=flat-square&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/IA%20de%20voz-c239b3?style=flat-square"></p>
     </td>
     <td width="50%" valign="top">
-      <h4>◉ LordTraining</h4>
-      <p>Plataforma SaaS de periodización deportiva basada en mi modelo <b>PDI</b>. Ofrece cinco metodologías de periodización, control de carga ACWR, gestión de deportistas en más de 30 deportes y un módulo de scouting.</p>
-      <p><a href="https://lordtraining.com"><b>lordtraining.com →</b></a></p>
+      <img src="https://lordtraining.com/brand/lordtraining-master.png" width="64" height="64" align="left" alt="Logo de LordTraining">
+      <h3>LordTraining</h3>
+      <sub>Periodización deportiva · SaaS</sub>
+      <br clear="left">
+      <p>Plataforma basada en mi modelo <b>PDI</b>: cinco metodologías de periodización, control de carga ACWR, gestión de deportistas en más de 30 deportes y módulo de scouting.</p>
+      <p><a href="https://lordtraining.com"><img src="https://img.shields.io/badge/lordtraining.com-ffc83d?style=for-the-badge&labelColor=0b1530" alt="lordtraining.com"></a></p>
       <p><img src="https://img.shields.io/badge/SaaS-0b1530?style=flat-square"> <img src="https://img.shields.io/badge/Ciencias%20del%20deporte-ffc83d?style=flat-square"> <img src="https://img.shields.io/badge/ACWR-3aa0ff?style=flat-square"></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>◉ EggChecker</h4>
-      <p>Plataforma de gestión avícola desarrollada en equipo en el SENA (ADSO), con backend en Python/FastAPI y app Android en Kotlin/Jetpack Compose. Estoy a cargo de la documentación de ingeniería de software (ISO/IEC/IEEE 12207, 29148, IEEE 1016 e ISO 25010).</p>
-      <p><a href="https://github.com/miguejpaezb/eggchecker"><b>Repositorio →</b></a> · <a href="https://eggchecker.click">eggchecker.click</a></p>
-      <p><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-7f52ff?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285f4?style=flat-square&logo=jetpackcompose&logoColor=white"></p>
+      <img src="assets/proyectos/rutacima.png" width="64" height="64" align="left" alt="Sello de cera de Ruta a la Cima">
+      <h3>Ruta a la Cima</h3>
+      <sub>App de desarrollo personal</sub>
+      <br clear="left">
+      <p>Tu vida hasta los 120 años, vista año por año y día por día. Lleva a la app el método <b>Ruta a la Cima</b>: 7 fases × 6 ejes hacia tu Cumbre Personal. Tiene versión web conectada a la misma cuenta.</p>
+      <p><a href="https://github.com/PassBri/rutacima"><img src="https://img.shields.io/badge/Repositorio-6b2a1a?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio"></a> <a href="https://passbri.github.io/rutacima/"><img src="https://img.shields.io/badge/Abrir%20web-b8862f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Abrir web"></a></p>
+      <p><img src="https://img.shields.io/badge/Android-6b2a1a?style=flat-square&logo=android&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-b8862f?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-6b2a1a?style=flat-square&logo=jetpackcompose&logoColor=white"></p>
     </td>
     <td width="50%" valign="top">
-      <h4>◉ Obra académica</h4>
-      <p><b>Periodización Dual Integrada (PDI):</b> modelo original de planificación del entrenamiento.<br>
-      <b><i>Propositivismo Episistémico</i>:</b> libro de filosofía de la educación.<br>
-      <b><i>QOÁNIMA</i>:</b> novela de ciencia ficción en proceso, parte de la <i>Serie de la teoría del viaje transformativo</i>.</p>
+      <img src="assets/proyectos/eggchecker.png" width="64" height="64" align="left" alt="Logo de EggChecker">
+      <h3>EggChecker</h3>
+      <sub>Gestión avícola · SENA ADSO</sub>
+      <br clear="left">
+      <p>Plataforma desarrollada en equipo con backend en Python/FastAPI y app Android. Estoy a cargo de la documentación de ingeniería de software (ISO/IEC/IEEE 12207, 29148, IEEE 1016 e ISO 25010).</p>
+      <p><a href="https://github.com/miguejpaezb/eggchecker"><img src="https://img.shields.io/badge/Repositorio-7a8b3c?style=for-the-badge&logo=github&logoColor=white" alt="Repositorio"></a> <a href="https://eggchecker.click"><img src="https://img.shields.io/badge/eggchecker.click-f5c242?style=for-the-badge" alt="eggchecker.click"></a></p>
+      <p><img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white"> <img src="https://img.shields.io/badge/Kotlin-7f52ff?style=flat-square&logo=kotlin&logoColor=white"> <img src="https://img.shields.io/badge/Jetpack%20Compose-4285f4?style=flat-square&logo=jetpackcompose&logoColor=white"></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>Obra académica</h3>
+      <p><b>Periodización Dual Integrada (PDI)</b> · modelo original de planificación del entrenamiento.<br>
+      <b><i>Propositivismo Episistémico</i></b> · libro de filosofía de la educación.<br>
+      <b><i>QOÁNIMA</i></b> · novela de ciencia ficción en proceso, parte de la <i>Serie de la teoría del viaje transformativo</i>.</p>
       <p><img src="https://img.shields.io/badge/Pedagogía-185abd?style=flat-square"> <img src="https://img.shields.io/badge/Epistemología-c239b3?style=flat-square"> <img src="https://img.shields.io/badge/Ciencia%20ficción-0b1530?style=flat-square"></p>
     </td>
   </tr>
